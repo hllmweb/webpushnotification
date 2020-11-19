@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web Notificação</title>
+</head>
+<body>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
+<script>
+
+var firebaseConfig = {
+    apiKey: "AIzaSyDYsdYx6PzgJ7ssBb2zIQFdE50-bEm_GKY",
+    authDomain: "chamados-585c3.firebaseapp.com",
+    databaseURL: "https://chamados-585c3.firebaseio.com",
+    projectId: "chamados-585c3",
+    storageBucket: "chamados-585c3.appspot.com",
+    messagingSenderId: "1087443892688",
+    appId: "1:1087443892688:web:420495f6f6675c0df061d5",
+    measurementId: "G-CR9DZEXV2S"
+  };
+ // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
+// const messaging = firebase.messaging();
+
+// messaging.onMessage((payload) => {
+//   console.log('Message received. ', payload);
+//   // ...
+// });
+
+</script>
+</body>
+</html>
